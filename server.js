@@ -8,7 +8,7 @@ var db
 
 
 // Remember to change YOUR_USERNAME and YOUR_PASSWORD to your username and password! 
-MongoClient.connect('mongodb+srv://ClintonNjiru:Schwarez1@cluster0.s35mg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', (err, database) => {
+MongoClient.connect('MondodbConnectionString', (err, database) => {
   if (err) return console.log(err)
   db = database.db('star-wars-quotes')
   app.listen(process.env.PORT || 3000, () => {
