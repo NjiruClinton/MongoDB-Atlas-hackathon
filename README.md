@@ -5,5 +5,8 @@ A project that utilizes the ***CRUD*** functions.
 
 ```npm install nodemon express mongodb body-parser ejs```
 
+Replace '```connectionstring```' with your own from your mongodb account
+
 ### Run
 ```npm run dev```
+
